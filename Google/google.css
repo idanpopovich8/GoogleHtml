@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#google{
+    display: flex;
+    width: 300px;
+    margin-bottom: 20px;
+}
+i{
+    display: flex;
+    position: absolute;
+}
+#botton{
+    display: flex;
+    size: 50px;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: Arial 14px sans-serif;
+    
+}
+#mic{
+    margin-top: 17px;
+    margin-left: 510px;
+    cursor: pointer;
+}
+#search{
+    margin-top: 17px;
+    margin-left: 540px;
+    cursor: pointer;
+}
+#lists{
+    margin-left: 110px;
+    font-size: x-large;
+}
+#lucky{
+    display: flex;
+    margin-left: 40px;
+    border-style: hidden;
+    padding-inline-start: 10px;
+    font-size: medium;
+    font-family: Arial 14px sans-serif;
+    cursor: pointer;
+}
+#push{
+    display: flex;
+    border-style: hidden;
+    padding-inline-start: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+#text {
+    display: flex;
+    border: 2px groove;
+    border-radius: 30px;
+    padding: 10px;
+    border-style:groove;
+    overflow: hidden;
+    border-color: azure;
+}
+input:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+    padding: 3px;
+}
+.goxjub{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    display: flex;
+    position: absolute;
+    margin-right: 39px;
+    cursor: pointer;
+}
+#classbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Gdd5U{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    position: absolute;
+    margin-right: 9px;
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    list-style-position: inside;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+
+}
+#mintext{
+    display: flex;
+    margin-top: 25px;
+    font-size: small;
+}
+#container a{
+    color: #1a0dab;;
+    text-decoration: none;
+    font-size: small;
+}
+#mintext a{
+    padding: 0 3px;
+}
+#extra{
+    display: flex;
+    margin-left: 83%;
+    margin-bottom: 350px;
+    position: absolute;
+}
+#extra a{
+    padding: 0 3px;
+    color:rgba(0, 0, 0, 0.838);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bom{
+    text-decoration: none;
+}
+#gmail{
+    text-decoration: none;
+}
+#sign{
+    color: white;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    margin-left: 50px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+
+}
+#gmail:hover{
+    text-decoration: underline;
+}
+#bom:hover{
+    text-decoration: underline;
+}
